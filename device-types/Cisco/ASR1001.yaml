@@ -1,6 +1,6 @@
 manufacturer: Cisco
-model: ASR1001-X
-slug: asr1001-x
+model: ASR1001
+slug: asr1001
 u_height: 1
 is_full_depth: true
 interfaces:
@@ -14,15 +14,7 @@ interfaces:
   - name: GigabitEthernet0/0/2
     type: 1000base-t
   - name: GigabitEthernet0/0/3
-    type: 1000base-t
-  - name: GigabitEthernet0/0/4
-    type: 1000base-t
-  - name: GigabitEthernet0/0/5
-    type: 1000base-t
-  - name: TenGigabitEthernet0/0/0
-    type: 10gbase-x-sfpp
-  - name: TenGigabitEthernet0/0/1
-    type: 10gbase-x-sfpp
+    type: 1000base-t 
 console-ports:
   - name: con 0
     type: rj-45
